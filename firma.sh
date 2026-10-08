@@ -96,7 +96,7 @@ echo 'alias update_sys="sudo apt update && sudo apt upgrade -y"' >> /home/lena/.
 sleep 2
 
 echo "2. Permanente variable COMPANY_NAME"
-echo 'COMPANY_NAME="Nordlicht GmbH"' >> /home/lena/.bashrc
+echo 'export COMPANY_NAME="Nordlicht GmbH"' >> /home/lena/.bashrc
 sleep 2
 
 echo "3. .bashrc besitz an lena"
@@ -146,5 +146,5 @@ echo "2"
 sleep 1
 echo "1"
 sleep 1
-reboot
+# reboot
 
